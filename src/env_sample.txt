@@ -2,41 +2,41 @@ OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT="true"
 AZURE_TRACING_GEN_AI_CONTENT_RECORDING_ENABLED="true"
 
 # Microsoft Foundry credentials
-FOUNDRY_ENDPOINT=""
-FOUNDRY_KEY=""
+FOUNDRY_ENDPOINT="<YOUR_FOUNDRY_ENDPOINT>"
+FOUNDRY_KEY="<YOUR_FOUNDRY_KEY>"
 FOUNDRY_API_VERSION="2025-01-01-preview"
 
 # GPT credentials
-gpt_endpoint=""
+gpt_endpoint="<YOUR_GPT_ENDPOINT>"
 gpt_deployment="gpt-5-mini"
-gpt_api_key=""
+gpt_api_key="<YOUR_GPT_API_KEY>"
 gpt_api_version="2025-01-01-preview"
 
 # Text-embedding-3-large credentials
-embedding_endpoint=""
+embedding_endpoint="<YOUR_EMBEDDING_ENDPOINT>"
 embedding_deployment="text-embedding-3-large"
-embedding_api_key=""
+embedding_api_key="<YOUR_EMBEDDING_API_KEY>"
 embedding_api_version="2025-01-01-preview"
 
 # Phi-4 credentials
-phi_4_endpoint=""
+phi_4_endpoint="<YOUR_PHI4_ENDPOINT>"
 phi_4_deployment="Phi-4"
-phi_4_api_key=""
+phi_4_api_key="<YOUR_PHI4_API_KEY>"
 phi_4_api_version="2024-05-01-preview"
 
 # Storage account credentials
-blob_connection_string=""
-storage_account_name=""
+blob_connection_string="<YOUR_BLOB_CONNECTION_STRING>"
+storage_account_name="<YOUR_STORAGE_ACCOUNT_NAME>"
 storage_container_name="zava"
 
 # Cosmos DB credentials
-COSMOS_ENDPOINT=""
-COSMOS_KEY=""
+COSMOS_ENDPOINT="<YOUR_COSMOS_ENDPOINT>"
+COSMOS_KEY="<YOUR_COSMOS_KEY>"
 DATABASE_NAME="zava"
 CONTAINER_NAME="product_catalog"
 
 # Application Insights credentials
-APPLICATIONINSIGHTS_CONNECTION_STRING=""
+APPLICATIONINSIGHTS_CONNECTION_STRING="<YOUR_APPLICATIONINSIGHTS_CONNECTION_STRING>"
 
 # MCP Server URL
 MCP_SERVER_URL="http://localhost:8000/mcp-inventory/sse"
